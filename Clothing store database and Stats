@@ -1,0 +1,17 @@
+CREATE TABLE Store (id INTEGER PRIMARY KEY, Item TEXT, Color TEXT, Quantity INTEGER,Price INTEGER);
+INSERT INTO store VALUES (1, "Shirt", "Blue",4,25);
+INSERT INTO store VALUES (2, "Pants", "Red", 10, 45);
+INSERT INTO store VALUES (3, "Sweater", "Green", 3, 60);
+INSERT INTO store VALUES (4, "Boots", "Maroon",4,30);
+INSERT INTO store VALUES (5, "Socks", "Black",15, 3);
+INSERT INTO store VALUES (6, "Swimwear", "Yellow", 2, 20);
+INSERT INTO store VALUES (7, "Shorts", "White", 10, 6);
+INSERT INTO store VALUES (8, "Bras", "Navy", 2, 15);
+INSERT INTO store VALUES (9, "Underwear", "Pink", 3, 15);
+INSERT INTO store VALUES (10, "Robe", "Black", 25, 30); 
+INSERT INTO store VALUES (11, "Pajamas", "Grey", 5, 16);
+INSERT INTO store VALUES (12, "Gloves", "Purple", 7, 5);
+INSERT INTO store VALUES (13, "Coat", "Ivory", 45, 85);
+INSERT INTO store VALUES (14, "Scarf", "Brown", 1, 12);
+INSERT INTO store VALUES (15, "Hats", "Black", 15, 20);
+SELECT * FROM Store WHERE Price <85 ORDER BY Price
